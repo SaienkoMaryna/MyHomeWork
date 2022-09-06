@@ -16,6 +16,14 @@ class HomeWork0509 {
                            // to odin katet - eto visota, provedennaya ko vtoromu katetu.     
         System.out.println(p);
         System.out.println(s);
+        int x;
+        int y;
+        x = 5;
+        y = 3;
+        int c = x + y;
+        int d = x - y;
+        float e = x / y;
+        System.out.printf("c = %d, d = %d, e =%f", c,d,e);
     
 }
 }
