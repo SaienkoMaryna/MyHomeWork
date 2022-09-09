@@ -26,7 +26,7 @@ class HomeWork0509 {
         int c = x + y;
         int d = x - y;
         float e = x / y;
-        System.out.printf("c = %d, d = %d, e =%f", c,d,e);
+        System.out.printf("c = %d, d = %d, e=%f", c,d,e);
         System.out.println();
         System.out.println();
         System.out.println("ZADACHA 3 ");       
