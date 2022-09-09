@@ -1,19 +1,21 @@
 /***
-*  MyHomeWork0509 version 06.09.2022
-*  Author MarynaSaienko 
+*  MyHomeWork0509 
+*
+*  @author MarynaSaienko 
+*  @todo 05.09.2022
+*  @date 06.09.2022
+*  @update 09.09.2022
 *
 */
 
 class HomeWork0509 {
     public static void main(String[] args){
-        int a; // katet pryamougolnogo ravnobedrennogo treugolnika
-        int b; // gipotenuza pryamougolnogo treugolnika
+        int a; 
+        int b; 
         a = 4;
         b = 7;
-        int p = b+ a * 2;
-        int s = a * b / 2; // S=1/2*(a*h), t.e. ravna  polovine proizvedeniya gipotenuzy (osnovaniya) na vysotu.   
-                           // t.k. treugolnik pryamougolniy, to S=1/2*(a*b),t.k. katety perpendikulyarni i ravny,
-                           // to odin katet - eto visota, provedennaya ko vtoromu katetu.     
+        int p = (b+ a) * 2;
+        int s = a * b; 
         System.out.println("ZADACHA 1");
         System.out.println("p =" + p);
         System.out.println("s =" + s);
@@ -21,12 +23,12 @@ class HomeWork0509 {
         System.out.println(" ZADACHA 2 ");
         int x;
         int y;
-        x = 5;
-        y = 3;
-        int c = x + y;
-        int d = x - y;
-        float e = x / y;
-        System.out.printf("c = %d, d = %d, e=%f", c,d,e);
+        a = 5;
+        b = 3; 
+        System.out.printf("%d + %d = %d\n", a, b, a+b);
+        System.out.printf("%d - %d = %d\n", a, b, a-b);
+        System.out.printf("%d /%d = %f\n", a, b, (float)a/b);
+        System.out.printf("%d * %d = %d\n", a, b, a*b);
         System.out.println();
         System.out.println();
         System.out.println("ZADACHA 3 ");       
