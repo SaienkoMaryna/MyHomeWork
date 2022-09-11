@@ -2,7 +2,7 @@
 *  MyHomeWork0509 
 *
 *  @author MarynaSaienko 
-*  @todo 30.09.2022
+*  @todo 05.09.2022
 *  @date 09.09.2022
 *  
 */
@@ -24,13 +24,13 @@ class HomeWork0909 {
     static void checkWeather(){
         int temperature = 39;
         if (temperature > 0 && temperature <=18) {
-        System.out.println("It`s cold");
+            System.out.println("It`s cold");
         } else if (temperature < 0 ) {
-        System.out.println("It`s frost");
+            System.out.println("It`s frost");
         } else if (temperature >=19 && temperature <=28 ) {
-        System.out.println("It`s warm");
+            System.out.println("It`s warm");
         } else {
-        System.out.println("It`s Hot");
+            System.out.println("It`s Hot");
         }
     }
         // 2
@@ -39,9 +39,9 @@ class HomeWork0909 {
         boolean isWeekend = true;
         boolean isRain = !false;
         if (isWeekend && isRain ) {
-        System.out.println("You can walk");
+            System.out.println("You can walk");
         } else {
-        System.out.println("You can`t walk");
+            System.out.println("You can`t walk");
         }
     }
     
