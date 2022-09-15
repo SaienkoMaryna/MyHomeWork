@@ -9,9 +9,18 @@ class HomeWork1409 {
     public static void main (String[] args) {
         int[] myArray = new int[10];
         printArray(myArray);
+        
+        //task2
+        
         int[] maxim = {1, 7, 88, 0, 34};
         getMax(maxim);
             System.out.println(getMax(maxim));
+            
+        //task3
+        
+       // int[] Vsenaoborot = {0, 0, 1,1 ,0,11};
+       // inventArray(Vsenaoborot);
+       // System.out.println(inventArray(Vsenaoborot));
     }    
     static void printArray (int[] array){
             System.out.print("[");         
@@ -38,5 +47,13 @@ class HomeWork1409 {
         }       
             return max;   
     }  
-    
+
+        // task 3
+   // static int inventArray(int[] oborot) { 
+      //  int x = oborot[0];
+      //  for (int i = 0; i < oborot.length; i++){
+      //    
+            
+        //}     
+    //}
 }
