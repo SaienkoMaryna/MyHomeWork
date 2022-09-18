@@ -33,8 +33,8 @@ class MyHomeWork1709  {
             if(number != quess) {
                 System.out.println("your lose");   
             }
-                System.out.println("repeat the game? yes - 1 , no  - 0 ");
-         
+                System.out.println("repeat the game? yes 1 or no 0 ");
+                String otvet = scanner.next();  
         }  
            while (scanner.nextInt() == 1);
     }
