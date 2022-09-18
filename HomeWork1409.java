@@ -7,7 +7,7 @@
 */
 class HomeWork1409 {
     public static void main (String[] args) {
-        int[] myArray = new int[10];
+        int[] myArray = {11, 22, 56, 78, 99};
         printArray(myArray);
         
         //task2
@@ -18,18 +18,18 @@ class HomeWork1409 {
             
         //task3
         
-        int [] Vsenaoborot = {0, 0, 1, 1 ,0, 1 ,0, 0};
+        int[] Vsenaoborot = {0, 0, 1, 1 ,0, 1 ,0, 0};
         printArray(Vsenaoborot);
         printArray(inventArray(Vsenaoborot));
       
     }    
     static void printArray (int[] array){
-            System.out.print("[");         
-            
-        for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() *20);
+           System.out.print("[");         
+         
+         for(int i = 0; i < array.length; i++) {
+        // array[i] = (int) (Math.random() *20);
             System.out.print(array[i]);
-        if (i < array.length - 1){
+        if(i < array.length - 1) {
             System.out.print(" ,");
         }
         }                
