@@ -18,9 +18,10 @@ class HomeWork1409 {
             
         //task3
         
-       // int[] Vsenaoborot = {0, 0, 1,1 ,0,11};
-       // inventArray(Vsenaoborot);
-       // System.out.println(inventArray(Vsenaoborot));
+        int [] Vsenaoborot = {0, 0, 1, 1 ,0, 1 ,0, 0};
+        printArray(Vsenaoborot);
+        printArray(inventArray(Vsenaoborot));
+      
     }    
     static void printArray (int[] array){
             System.out.print("[");         
@@ -49,11 +50,15 @@ class HomeWork1409 {
     }  
 
         // task 3
-   // static int inventArray(int[] oborot) { 
-      //  int x = oborot[0];
-      //  for (int i = 0; i < oborot.length; i++){
-      //    
-            
-        //}     
-    //}
+    static int[] inventArray(int[] oborot) { 
+        int[] result  = new int[oborot.length];
+        for (int i = 0; i < oborot.length; i++) {
+        if (oborot[i] == 0)  {
+            result[i] = 1;
+        } else {
+            result[i] = 0;
+        }   
+        }
+            return result;        
+    }
 }
