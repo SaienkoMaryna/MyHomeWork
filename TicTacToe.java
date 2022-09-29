@@ -38,8 +38,11 @@ class TicTacToe  {
                 System.out.println("Sorry, DRAW!");
                 break;
                                
-            }               
+            }  
+            
         }
+            printTable();
+                System.out.println("GAME OVER");
     }
      
     static void init() {
